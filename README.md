@@ -1,12 +1,11 @@
 # Build Time Series Forecasting Ensembles
 
-This CentOS-based container running on Python3 has the tools necessary to build an ensemble of time-series forecacasting models.
-Inside the `/home` folder, there are sample data and notebooks with examples on building the following models
 
 - `ETS, TBATS` and `AUTO.ARIMA` (Using `R` through `rpy2`)
 - `ARIMA, ARIMAX, SARIMAX` (Using `statsmodels`)
 - `Prophet` (using Facebook's Python Library)
 - `tsfresh` from Blue Yonder for automated feature extraction from time-series data.
+- add `chronos` autogluon timeseries model prediction like a language model
 
 # Forecasting tl;dr
 
@@ -54,3 +53,4 @@ PS: that ARIMA models assume non-seasonal series, so you'll need to de-seasonali
 - [Hyndman Book](https://www.otexts.org/fpp/8)
 - [SO auto.arima equivalent in Python](https://stackoverflow.com/questions/22770352/auto-arima-equivalent-for-python/22770973#22770973)
 - [DO Tutorial - GridSearch for (p,d,q)](https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3)
+- [Chronos time series: Learning the Language of Time Series](https://github.com/amazon-science/chronos-forecasting)
