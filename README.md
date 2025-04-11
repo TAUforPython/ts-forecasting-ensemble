@@ -7,8 +7,6 @@
 - `tsfresh` from Blue Yonder for automated feature extraction from time-series data.
 - add `chronos` autogluon timeseries model prediction like a language model
 
-# Forecasting tl;dr
-
 These are the steps
 
 - **Explore**
@@ -44,6 +42,7 @@ PS: that ARIMA models assume non-seasonal series, so you'll need to de-seasonali
 
 # Recommended Reading
 
+- [Vanila Keras timeseries](https://github.com/keras-team/keras-io/tree/master/examples/timeseries)
 - [Notes on Regression and TS Analysis - Duke Univ](http://people.duke.edu/~rnau/411home.htm)
 - [Rules for identifying ARIMA models](http://people.duke.edu/~rnau/arimrule.htm)
 - [Sean Abu's SARIMAX tutorial](http://www.seanabu.com/2016/03/22/time-series-seasonal-ARIMA-model-in-python/)
