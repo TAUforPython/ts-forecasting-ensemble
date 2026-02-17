@@ -1,6 +1,7 @@
 # Build Time Series Forecasting Ensembles
 
 
+- `SMETS` (use link https://rtavenar.github.io/blog/dtw.html)
 - `ETS, TBATS` and `AUTO.ARIMA` (Using `R` through `rpy2`)
 - `ARIMA, ARIMAX, SARIMAX` (Using `statsmodels`)
 - `Prophet` (using Facebook's Python Library)
